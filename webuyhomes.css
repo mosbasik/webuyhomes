@@ -3,15 +3,35 @@ body {
     font-family: 'Ubuntu';
 }
 
-.container>h1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-family: 'Josefin Sans';
-    font-size: 4em;
+.panel, .property-thumb {
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(170,170,170,1);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(170,170,170,1);
+    box-shadow: 0px 0px 15px 2px rgba(170,170,170,1);
 }
 
-h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
     font-family: 'Ubuntu';
+}
+
+.container>h1 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    /*font-family: 'Josefin Sans';*/
+    font-size: 4em;
+    color: white;
+    text-shadow: 4px 4px 30px #000;
+}
+
+.banner {
+    background: url(banner.jpg) no-repeat center center fixed; 
+    height: 370px;
+    width: 100%;
+    position: fixed;
+}
+
+#content {
+    /*background-color: white;*/
+    position: relative;;
 }
 
 .property-thumb img {
@@ -22,7 +42,8 @@ h2, h3, h4, h5, h6, p {
 
 /* -------------------- background image -------------------- */
 html { 
-  background: url(palm-tree-background.jpg) no-repeat center center fixed; 
+  /*background: url(palm-tree-background.jpg) no-repeat center center fixed; */
+  background-color: #ddd;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,7 +56,7 @@ body {
 
 /* -------------------- navbar -------------------- */
 body {
-    padding-top: 70px;
+    padding-top: 51px;
 }
 
 /* -------------------- zip code dropdown -------------------- */
