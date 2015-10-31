@@ -7,10 +7,17 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'Josefin Sans';
+    font-size: 4em;
 }
 
 h2, h3, h4, h5, h6, p {
     font-family: 'Ubuntu';
+}
+
+.property-thumb img {
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
 }
 
 /* -------------------- background image -------------------- */
